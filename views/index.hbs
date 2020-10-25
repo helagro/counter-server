@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="/stylesheets/index.css"> 
+<script src="/scripts/index.js" async defer></script>   
+
+<div class="main_area">
+    <h1>Counter: {{i}}</h1>
+    
+    <form class="main_form" action="/" method="GET">
+        <input type="number" name="i" placeholder="Delta"/>
+        <input type="submit" value="Submit">
+    </form>
+
+    <div class="btn_container">
+        <a href="?i=-2">-2</a>
+        <a href="?i=-1">-1</a>
+        <a href="?i=1">1</a>
+        <a href="?i=2">2</a>
+    </div>
+</div>

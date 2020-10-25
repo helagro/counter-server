@@ -1,0 +1,77 @@
+:root{
+    --btn_dia: 60px;
+}
+
+.main_area{
+    background-color: var(--inner_background);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -70%);
+    padding: 20px;
+    border: 1px var(--definer) solid;
+    max-width: fit-content;
+    width: -moz-max-content;
+    width: -webkit-max-content;
+}
+
+.main_area h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 19px;
+}
+
+.main_form {
+    float: center;
+    margin: auto;
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    height: 38px;
+}
+
+.main_form *{
+    height: 100%;
+    font-size: 20px;
+    border: 0;
+    color: var(--std_text_color);
+}
+
+.main_form input[type=number]{
+    width: 160px;
+    text-align: center;
+    background-color: #222;
+}
+
+.main_form input[type=submit]{
+    background-color: #333;
+}
+
+.main_form input[type=submit]:hover{
+    background-color: #2e2e2e;
+}
+
+.main_form input[type=submit]:active{
+    background-color: #222;
+}
+
+.btn_container {
+    margin: 12px 30px;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    text-align: center;
+}
+
+.btn_container a{
+    line-height: var(--btn_dia);
+    width: var(--btn_dia);
+    margin: 0 10px;
+    font-size: 28px;
+    color: var(--std_text_color);
+    border-radius: var(--btn_dia);
+}
+
+.btn_container a:hover{
+    background: var(--definer);
+}

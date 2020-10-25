@@ -1,0 +1,23 @@
+:root{
+    --outer_background: #2e302c;
+    --inner_background: #242724;
+    --definer: #151615;
+    --light_text_color: #e2e2e2;
+    --std_text_color: rgb(218, 218, 218);
+}
+
+*{
+    box-sizing: border-box
+}
+
+body{
+    background-color: var(--outer_background);
+}
+
+h1{
+    color: var(--light_text_color);
+}
+
+p{
+    color: var(--std_text_color);
+}
