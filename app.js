@@ -68,7 +68,7 @@ app.use((err, req, res, next) => {
 //  START
 // ==============================================
 
-const port = process.env.PORT
+const port = 9992
 
 app.listen(port, "0.0.0.0", () => {  //for visble on network
   console.log(`The application is now running on port ${port}`)
